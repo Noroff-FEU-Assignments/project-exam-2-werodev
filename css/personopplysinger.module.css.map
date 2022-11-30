@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;CACpB;;AAED,AAAA,MAAM,CAAC;EACH,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;EACjB,KAAK,EAAE,OAAO;CACjB",
+    "sources": [
+        "../src/pages/personopplysinger/personopplysinger.module.scss"
+    ],
+    "names": [],
+    "file": "personopplysinger.module.css"
+}
