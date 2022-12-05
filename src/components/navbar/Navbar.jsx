@@ -25,7 +25,7 @@ export default function Navbar() {
     };
     return (
     <>  
-        <Grid container spacing={3} margin={0} className={styles.navbar}>
+        <Grid container spacing={3} margin={0} padding={0} className={styles.navbar}>
             <Grid item xs>
                 <Item><Link to="/"><img src={logo} alt='logo møte-mat' className={styles.logo}></img></Link></Item>
             </Grid>
@@ -82,17 +82,17 @@ export default function Navbar() {
                     anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
                 >
                     <Container className={styles.submenu} >
-                        <MenuItem>
-                        <Container><Link to='/products' className={styles.submenuLink}><Typography variant='body2' align='center'>møtemat</Typography></Link></Container>
+                        <MenuItem sx={{ width:'200px', justifyContent:'center'}}>
+                        <Link to='/products' className={styles.submenuLink}><Typography variant='body2'>møtemat</Typography></Link>
                         </MenuItem>
-                        <MenuItem>
-                        <Container><Link to='/product' className={styles.submenuLink}><Typography variant='body2' align='center'>gjestelunsj</Typography></Link></Container>
+                        <MenuItem sx={{ width:'200px', justifyContent:'center'}}>
+                        <Link to='/product' className={styles.submenuLink}><Typography variant='body2' align='center'>gjestelunsj</Typography></Link>
                         </MenuItem>
-                        <MenuItem>
-                        <Container><Link to='/about' className={styles.submenuLink}><Typography variant='body2' align='center'>om oss</Typography></Link></Container>
+                        <MenuItem sx={{ width:'200px', justifyContent:'center'}}>
+                        <Link to='/about' className={styles.submenuLink}><Typography variant='body2' align='center'>om oss</Typography></Link>
                         </MenuItem>
-                        <MenuItem>
-                        <Container><Link to='/contact' className={styles.submenuLink}><Typography variant='body2' align='center'>kontakt</Typography></Link></Container>
+                        <MenuItem sx={{ width:'200px', justifyContent:'center'}}>
+                        <Link to='/contact' className={styles.submenuLink}><Typography variant='body2' align='center'>kontakt</Typography></Link>
                         </MenuItem>   
                     </Container>  
                 </Menu>  

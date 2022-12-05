@@ -16,14 +16,21 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-top: 30px;
-    justify-content: center;
+    width: 200px;
 }
 
 .submenuLink {
     text-decoration: none;
     color: #090909;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .submenuLink:hover {
     text-decoration: solid;
 }
+
+.css-3kfke8-MuiGrid-root {
+    width: 100vw !important;
+}
+

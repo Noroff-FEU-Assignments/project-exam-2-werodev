@@ -5,7 +5,7 @@ import styles from './about.module.scss';
 
 function About() {
     return (
-        <Container className={styles.container}>
+        <Container className={styles.container} sx={{ paddingLeft:'20vw', paddingRight:'20vw'}}>
             <HeadingB content="om oss" />
             <Typography variant="h3">Om RSV Gruppen AS Divisjon Kantine</Typography>
             <Typography variant="body1" className={styles.body1}>

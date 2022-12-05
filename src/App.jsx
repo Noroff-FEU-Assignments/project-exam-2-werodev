@@ -7,16 +7,16 @@ import Navbar from './components/navbar/Navbar';
 import Routing from './components/Routing';
 
 function App() {
-  return (
-    <div className="App">
-      <ThemeProvider theme={theme}> 
-        <CssBaseline />
-          <Navbar />
-          <Routing />
-          <Footer />
-      </ThemeProvider>
-    </div>
-  );
+    return (
+        <div className="app">
+            <ThemeProvider theme={theme}> 
+                <CssBaseline />
+                    <Navbar />
+                        <Routing />
+                    <Footer />
+            </ThemeProvider>
+        </div>
+    );
 }
 
 export default App;

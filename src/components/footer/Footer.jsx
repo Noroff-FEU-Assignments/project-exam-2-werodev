@@ -22,7 +22,7 @@ function Copyright() {
 
 export default function Footer() {
     return (
-        <Grid container spacing={3} margin={0} className={styles.footer} sx={{position: "fixed", bottom: 0}}>
+        <Grid container spacing={3} margin={0} padding={0} mt={{ xs:5, sm:20}} pt={2} pb={2} className={styles.footer}>
             <Grid item xs={12} md={3} className={styles.grid}>
                 <Box>
                     <Item>

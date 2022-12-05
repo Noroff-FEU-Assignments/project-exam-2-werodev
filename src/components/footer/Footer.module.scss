@@ -3,6 +3,7 @@
     border-top-width: thin;
     padding: 0;
     background-color: #F2f2f2;
+    width: 100%;
 }
 
 .grid {
@@ -10,4 +11,8 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+}
+
+.css-srgo4w-MuiGrid-root {
+    width: 100vw !important;
 }

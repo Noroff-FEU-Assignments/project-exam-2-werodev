@@ -5,7 +5,7 @@ import styles from './personopplysinger.module.scss';
 
 function Personopplysinger() {
     return (
-        <Container className={styles.container} sx={{ maxWidth:'100%'  }} maxWidth={false}>
+        <Container className={styles.container} sx={{ maxWidth:'100%' }} maxWidth={false}>
             <HeadingB content="behandling av personopplysinger" />
             <Typography variant="h3">Working on it</Typography>
             <Typography variant="body1" className={styles.body1}>
