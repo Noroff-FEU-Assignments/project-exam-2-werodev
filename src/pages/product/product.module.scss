@@ -1,5 +1,24 @@
 .container {
     padding-top: 10vh;
-    padding-left: 20vw !important;
-    padding-right: 20vw !important;
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
+
+.img {
+    width:100%;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.img2 {
+    max-height: 100px;
+}
+
+
+@media (max-width: 900px) {
+    .img {
+        border-radius: 25px 25px 0px 0px;
+    }
+  }

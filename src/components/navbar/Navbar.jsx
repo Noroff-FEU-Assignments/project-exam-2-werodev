@@ -34,7 +34,7 @@ export default function Navbar() {
             <Grid item xs>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: 10}}>
                     <Tooltip title="User">
-                        <IconButton sx={{ ml: 2 }}><PersonOutlineIcon /></IconButton>
+                        <IconButton sx={{ ml: 2 }} href="Login"><PersonOutlineIcon /></IconButton>
                     </Tooltip>
                     <IconButton sx={{ ml: 2 }}><ShoppingCartOutlinedIcon /></IconButton>
                     <Tooltip title="Menu">
@@ -86,7 +86,7 @@ export default function Navbar() {
                         <Link to='/products' className={styles.submenuLink}><Typography variant='body2'>møtemat</Typography></Link>
                         </MenuItem>
                         <MenuItem sx={{ width:'200px', justifyContent:'center'}}>
-                        <Link to='/product' className={styles.submenuLink}><Typography variant='body2' align='center'>gjestelunsj</Typography></Link>
+                        <Link to={`product/${4}`} className={styles.submenuLink}><Typography variant='body2' align='center'>gjestelunsj</Typography></Link>
                         </MenuItem>
                         <MenuItem sx={{ width:'200px', justifyContent:'center'}}>
                         <Link to='/about' className={styles.submenuLink}><Typography variant='body2' align='center'>om oss</Typography></Link>

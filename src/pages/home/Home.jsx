@@ -19,7 +19,7 @@ function Home() {
                         <HeadingA content="13th" />
                         <HeadingB content="December" />
                         <Typography variant="body1" sx={{ paddingTop:10,}}>Would you like to celebrate Luciadagen with your colleagues? We'll be happy to make your day tastier, order lussikatter before 06.12.</Typography>
-                        <Button variant="contained" sx={{ marginTop:5,}}>bestill her</Button>
+                        <Button variant="contained" sx={{ marginTop:5,}} href={`product/${5}`}>bestill her</Button>
                     </Item>
                 </Grid>
             </Grid>

@@ -1,9 +1,9 @@
 import { Container } from '@mui/material'
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import styles from './products.module.scss';
-import ProductSmall from '../../components/productSmall/ProductSmall';
-import HeadingB from '../../components/HeadingB';
+import styles from './products.module.scss'
+import ProductSmall from '../../components/productSmall/ProductSmall'
+import HeadingB from '../../components/HeadingB'
 
 function Products() {
   return (

@@ -13,6 +13,7 @@ import Contact from '../pages/contact/Contact.jsx'
 import Cookies from '../pages/cookies/Cookies.jsx'
 import About from '../pages/about/About.jsx'
 import Personopplysinger from '../pages/personopplysinger/Personopplysinger.jsx'
+import Login from '../pages/login/Login.jsx'
 
 export default function Routing() {
     return (
@@ -30,7 +31,8 @@ export default function Routing() {
                   <Route path="personopplysinger" element={<Personopplysinger />} />
                   <Route path="cookies" element={<Cookies />} />
                   <Route path="products" element={<Products />} />
-                  <Route path="product" element={<Product />} />
+                  <Route path="product/:id" element={<Product />} />
+                  <Route path="login" element={<Login />} />
             </Routes>    
         </Container>
     </>
