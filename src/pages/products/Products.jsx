@@ -11,9 +11,6 @@ function Products() {
         <HeadingB content="møtemat" />
         <Grid container spacing={8} paddingTop={'5vh'}>
             <ProductSmall />
-            <ProductSmall />
-            <ProductSmall />
-            <ProductSmall />
         </Grid>
     </Container>
   )

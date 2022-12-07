@@ -52,12 +52,7 @@ export default function Footer() {
             </Grid>
             <Grid item xs={12} md={2} className={styles.grid}>
                 <Box>
-                    <Item className={styles.item}>
-                        <Link href="/personopplysinger" variant='h4' underline="none" color="inherit">Behandling av Personopplysinger</Link>
-                    </Item>
-                    <Item>
-                        <Link href="/cookies" variant='h4' underline="none" color="inherit">Bruk av Cookies</Link>
-                    </Item>
+               
                 </Box>
             </Grid>
             <Grid item xs={12} md={3} className={styles.grid}>

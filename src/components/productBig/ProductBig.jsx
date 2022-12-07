@@ -24,10 +24,10 @@ function ProductBig() {
                             <Grid item xs={2}>
                               <SetFavourite />
                             </Grid>
-                            <Grid item xs={12} height={'350px'}>
-                              <Typography variant='body2'textAlign={'left'} paddingTop={5}>Beskrivelse:</Typography>
-                              <Typography variant='h5'textAlign={'left'} paddingTop={2} height={'100px'}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</Typography>
-                              <Typography variant='body2'textAlign={'left'} paddingTop={5}>Allergener:</Typography>                          
+                            <Grid item xs={12}>
+                              <Typography variant='body2'textAlign={'left'} paddingTop={2}>Beskrivelse:</Typography>
+                              <Typography variant='h5'textAlign={'left'} paddingTop={2}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</Typography>
+                              <Typography variant='body2'textAlign={'left'} paddingTop={2}>Allergener:</Typography>                          
                             </Grid>
                             <Grid item xs={5} paddingRight={4} textAlign={'center'}>
                                 <ProductAmount />
